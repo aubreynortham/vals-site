@@ -5,6 +5,12 @@ import '../assets/styles/site.scss';
 
 export default () =>
   <div>
-    <h1>Val's Site.</h1>
-    <Link to="/placeholder/">Placeholder Link</Link>
+    <div
+      className="banner"
+      style={{
+        backgroundImage: `url(${require('../assets/images/val.jpg')})`
+      }}>
+      <h1>Val's Site.</h1>
+      <Link to="/placeholder/">Placeholder Link</Link>
+    </div>
   </div>
