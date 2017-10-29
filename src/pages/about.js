@@ -6,6 +6,7 @@ import '../assets/styles/site.scss';
 
 export default () =>
   <div>
-    <h1>Placeholder Page</h1>
-    <Link to="/">Home</Link>
+      <Link to="/">Home</Link>
+      <h1>About Me</h1>
+
   </div>

@@ -10,7 +10,7 @@ export default () =>
       style={{
         backgroundImage: `url(${require('../assets/images/val.jpg')})`
       }}>
-      <h1>Val's Site.</h1>
-      <Link to="/placeholder/">Placeholder Link</Link>
+      <h1 className="title">Val's Site.</h1>
+      <Link to="/about/">About Me</Link>
     </div>
   </div>

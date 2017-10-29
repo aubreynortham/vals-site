@@ -1,6 +1,32 @@
+//Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+//Sass vars
+$titleFontStack: 'Monoton', 'Julius Sans One', sans-serif;
+$titleColor: #c14fd4;
+$mainTransitionProps: font-size 2s;
+
 body {
   background-color: tomato;
   margin: 0;
+}
+
+.title {
+  font-family: $titleFontStack;
+  color: $titleColor;
+  font-size: 3em;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  -webkit-transition: $mainTransitionProps;
+  -moz-transition: $mainTransitionProps;
+  transition: $mainTransitionProps;
+}
+
+a:hover {
+  font-size: 1.5em;
 }
 
 .banner {
