@@ -17,6 +17,10 @@ body {
   font-size: 3em;
 }
 
+li {
+  list-style-type: none;
+}
+
 a {
   text-decoration: none;
   color: whitesmoke;
@@ -39,4 +43,24 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.likeList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.like-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.space-list-items {
+  margin-bottom: 7px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 100%;
 }
